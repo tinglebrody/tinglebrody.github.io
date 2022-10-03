@@ -31,15 +31,18 @@
 <body>
   <form action="results.html" method="get">
     <div class="form">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <label id="emailHelp" class="form-text">We'll never share your email with anyone else.</label>
-      <label for="phone">Phone Number</label>
-      <input type="text" id>
-      <input type="checkbox" class="form-check-input" id="exampleCheck1"> </input>
-      <label class="form-check-label" for="exampleCheck1">Receive Notifications</label>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </form>
+        <label for="name"><strong>Name:</strong></label><br>
+        <input type="text" id="name" name="name" placeholder="First and Last Name"><br>
+        <label for="phone"><strong>Phone Number:</strong></label><br>
+        <input type="text" id="phone" name="phone" placeholder="###-###-####"><br>
+        <br>
+<input type="checkbox" id="Major" name="major" value="Computer Science Major">
+        <label for="major"><strong>Click checkbox if you are a Computer Science Major</strong></label><br>
+        <br>
+        <input type="submit" name="submit" value="Submit"  />
+
+<input type = "reset" value= "Reset">
+        </div>
+    </form>        
 </body>
 </html>
